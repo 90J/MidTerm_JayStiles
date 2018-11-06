@@ -1,0 +1,8 @@
+C:\Users\jstiles\source\repos\MidTerm_JayStiles\MidTerm_JayStiles\bin\Debug\MidTerm_JayStiles.exe.config
+C:\Users\jstiles\source\repos\MidTerm_JayStiles\MidTerm_JayStiles\bin\Debug\MidTerm_JayStiles.exe
+C:\Users\jstiles\source\repos\MidTerm_JayStiles\MidTerm_JayStiles\bin\Debug\MidTerm_JayStiles.pdb
+C:\Users\jstiles\source\repos\MidTerm_JayStiles\MidTerm_JayStiles\obj\Debug\MidTerm_JayStiles.csprojAssemblyReference.cache
+C:\Users\jstiles\source\repos\MidTerm_JayStiles\MidTerm_JayStiles\obj\Debug\MidTerm_JayStiles.csproj.CoreCompileInputs.cache
+C:\Users\jstiles\source\repos\MidTerm_JayStiles\MidTerm_JayStiles\obj\Debug\MidTerm_JayStiles.exe
+C:\Users\jstiles\source\repos\MidTerm_JayStiles\MidTerm_JayStiles\obj\Debug\MidTerm_JayStiles.pdb
+C:\Users\jstiles\source\repos\MidTerm_JayStiles\MidTerm_JayStiles\bin\Debug\Menu.csv
