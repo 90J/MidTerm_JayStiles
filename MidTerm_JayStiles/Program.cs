@@ -11,55 +11,48 @@ namespace MidTerm_JayStiles
     {
         static void Main(string[] args)
         {
-            string currentDirectory = Directory.GetCurrentDirectory();
-            DirectoryInfo directory = new DirectoryInfo(currentDirectory);
-            var fileName = Path.Combine(directory.FullName, "Menu.csv");
-            var fileContents = ReadMenu(fileName);
-            double tallyPrice;
-            double changeDue;
-            double amountPaid;
-            double totalDue;
-        }
-        public double TotalWithTax(double tallyPrice)
-        {
-            double x = tallyPrice * 1.06;
-            return x;
-        }
+            //initial welcome
+            Console.WriteLine("welcome to store");
+            
 
+            //send to method to buy crap
+            PurchaseItems();
 
-        public static string ReadFile(string fileName)
+        }
+        //method to buy crap
+        public static void PurchaseItems()
         {
-            using (var reader = new StreamReader(fileName))
+            //keep buying crap
+            bool keepGoing = true;
+
+            while (keepGoing)
             {
-                return reader.ReadToEnd();
-            }
-        }
+                double runningTotal = 0;
 
+                //adding crap
+                bool placingOrder = true;
 
-
-        public static List<MenuListing> ReadMenu(string fileName)
-        {
-            var menuListing = new List<MenuListing>();
-            using (var reader = new StreamReader(fileName))
-            {
-                string line = "";
-                reader.ReadLine();
-                while ((line = reader.ReadLine()) != null)
+                while(placingOrder)
                 {
-                    string[] values = line.Split(',');
-                    var tallyPrice = new MenuListing();
-
-                    double itemPrice;
-                    if (double.TryParse(values[1], out itemPrice))
-                    {
-                        tallyPrice.ItemPrice = itemPrice;
-                    }
-
-                    menuListing.Add(tallyPrice);
-
+                    string itemChoice = ChooseProduct();
                 }
             }
-            return menuListing;
+        }
+        public static string ChooseProduct()
+        {
+            
+        }
+
+        public static void ShowMenu()
+        {
+
+        }
+        public static string PaymentType()
+        {
+
+        }
+        public static void Receipt()
+        {
 
         }
     }
